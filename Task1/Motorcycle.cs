@@ -16,6 +16,6 @@ public class Motorcycle : Vehicle
     public override int GetMaxSpeed() => 200;
     public override string DisplayInfo()
     {
-        return $"Мотоцикл: {GetBrand()} {GetModel()} {GetYear()}\nЦіна: {GetPrice()}\nОб'єм двигуна в см³: {GetEngineVolume()}\nНаявність вітрового скла: {GetHasWindshield()}\nТранспортний податок: {CalculateTax()}\n";
+        return $"Мотоцикл: {GetBrand()} {GetModel()} {GetYear()}\nЦіна: {GetPrice()}\nОб'єм двигуна в см³: {GetEngineVolume()}\nНаявність вітрового скла: {GetHasWindshield()}\nМаксимальна швидкість: {GetMaxSpeed()} км/год \nТранспортний податок: {CalculateTax()}\n";
     }
 }
